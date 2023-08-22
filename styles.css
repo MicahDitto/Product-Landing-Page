@@ -7,8 +7,29 @@
 }
 
 main {
-  margin: 2rem 4rem 2rem 4rem;
+  margin: 2rem 8rem 2rem 8rem;
   padding: 0rem 1rem 0rem 1rem;
+}
+
+main,
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#header-img {
+  border-radius: 250px;
+}
+
+.welcome-box {
+    border: #ff7f50 solid;
+    border-radius: 20px;
+    padding: 3rem;
+    margin: 3rem;
+    width: 50%;
+
 }
 
 code {
@@ -110,4 +131,28 @@ main hr {
   h3 {
     font-size: 1rem;
   }
+}
+
+
+/* ----------------------------- */
+.card {
+
+color: #62646a;
+font: 400 16px/24px Macan,Helvetica Neue,Helvetica,Arial,sans-serif;
+line-height: 130%;
+border: 0;
+margin: 0;
+outline: 0;
+padding: 0;
+box-sizing: var(--_1epigd36v);
+display: var(--_1epigd366);
+width: var(--_1epigd39b);
+gap: var(--_1epigd34s);
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+flex-direction: var(--_1epigd35l);
+-webkit-box-pack: var(--_1epigd36d);
+justify-content: var(--_1epigd36d);
+-webkit-box-align: var(--_1epigd36t);
+align-items: var(--_1epigd36t);
 }
